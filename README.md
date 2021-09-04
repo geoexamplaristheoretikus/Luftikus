@@ -1,5 +1,5 @@
 # LuftiKus
-**Lu**ft**f**euch**t**igkeits opt**i**mierte **K**ellerlueft**u**ngs**s**tuerung
+**Lu**ft**f**euch**t**igkeits opt**i**mierte **K**ellerlüft**u**ngs**s**teuerung
 
 
 This is an ESP8266-board based ventilation controlling system.
@@ -11,14 +11,14 @@ To build it one needs:
 - 1x DS18B20 Sensors
 - 1x Relay or MOSFET
 - 1x USB-b cable and charger
-- 1x outdoor case for the
+- 1x case for the outdoor DHT22
 
 
 As a relay one can use a
 
 *"Raspberry Pi" 5V/230V 1-CH Relay*.
 
-In case you have you do not trust these cheap relays,
+In case, you do not trust these cheap relays,
 you can use a *MOSFET* (e.g. *IRF520*) with some (12V) DC-source
 to switch some mono-stable relay.
 This also works if you want to directly switch the power of your DC-fan.
