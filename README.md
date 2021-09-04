@@ -32,9 +32,8 @@ You can flash the [firware.bin](.pio/build/nodemcuv2/firmware.bin) using esp-too
 esptool  write_flash -fm dio 0x00000 firmware.bin
 ```
 
-Or you use a GUI for the esptool:
-
-https://github.com/Grovkillen/ESP_Easy_Flasher
+Or you use a GUI for the esptool:  
+https://github.com/Grovkillen/ESP_Easy_Flasher  
 https://github.com/marcelstoer/nodemcu-pyflasher
 
 ## How to setup
