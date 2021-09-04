@@ -17,8 +17,6 @@
 #define oneWireBus 2
 #define RelaisGPIO 16
 #define DHTTYPE DHT22
-***REMOVED***
-***REMOVED***
 
 eSPIFFS fileSystem;
 
