@@ -2,7 +2,7 @@
 **Lu**ft**f**euch**t**igkeits opt**i**mierte **K**ellerlüft**u**ngs**s**teuerung
 
 
-This is an ESP8266-board based ventilation controlling system.
+This is an ESP8266-board based ventilation controlling system for reducing humidity of a cellar by only venting if the outdoor air is dryer than the indoor air.
 
 To build it one needs:
 
