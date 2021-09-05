@@ -367,7 +367,7 @@ void loop() {
     Outdoor_Humidity = dhtin.getHumidity();
     out_hum_err = humidity_err(Outdoor_Humidity);
     Outdoor_Temperature = dhtin.getTemperature();
-    Outdoor_Temperature *= 0.2; // for testing
+    //Outdoor_Temperature *= 0.2; // for testing
 
 
     // Compute important meteorological values for decision
