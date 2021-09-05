@@ -62,3 +62,4 @@ Use Platformio.
 - No-WiFi-setup
 - Logging with download
 - Other smart-home connections!?
+- BME280 support
