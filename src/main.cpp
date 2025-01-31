@@ -12,8 +12,8 @@
 #include <Effortless_SPIFFS.h>
 #include <time.h>
 #include <ESPAsyncWiFiManager.h> 
-#define DHTGPIOOUT 5
-#define DHTGPIOIN 14
+#define DHTGPIOOUT 14
+#define DHTGPIOIN 5
 #define oneWireBus 2
 #define RelaisGPIO 16
 #define DHTTYPE DHT22
@@ -361,12 +361,12 @@ void loop() {
     // Reading temperature or humidity takes about 250 milliseconds!
     // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
     Serial.println("Requesting temperature and humidity from the DS22-Sensors.");
-    Indoor_Humidity = dhtout.getHumidity();
+    Indoor_Humidity = dhtin.getHumidity();
     in_hum_err = humidity_err(Indoor_Humidity);
-    Indoor_Temperature = dhtout.getTemperature();
-    Outdoor_Humidity = dhtin.getHumidity();
+    Indoor_Temperature = dhtin.getTemperature();
+    Outdoor_Humidity = dhtout.getHumidity();
     out_hum_err = humidity_err(Outdoor_Humidity);
-    Outdoor_Temperature = dhtin.getTemperature();
+    Outdoor_Temperature = dhtout.getTemperature();
     //Outdoor_Temperature *= 0.2; // for testing
 
 
